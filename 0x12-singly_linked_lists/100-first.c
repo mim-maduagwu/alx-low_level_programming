@@ -1,9 +1,16 @@
 #include <stdio.h>
 /**
- * b_main: executess befor main
+ * 100-first.c
+ *
+ * Tortoise words
  *
  */
 void b_main(void) __attribute__ ((constructor));
+
+/**
+ * b_main- executess befor main
+ *
+ */
 
 void b_main(void)
 {
