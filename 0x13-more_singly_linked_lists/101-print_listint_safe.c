@@ -67,6 +67,7 @@ size_t print_listint_safe(const listint_t *head)
 
 	if (head == NULL)
 		exit(98);
+
 	found_loop = loop(head);
 
 	if (found_loop == 1)
