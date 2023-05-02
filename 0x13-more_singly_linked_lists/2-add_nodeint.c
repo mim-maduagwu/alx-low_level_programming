@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_nodeint - adds  node 
+ * add_nodeint - adds  node
  * @head: node beginning
  * @n: value
  * Return: linke list
