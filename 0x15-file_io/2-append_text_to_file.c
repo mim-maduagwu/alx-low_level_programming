@@ -2,7 +2,7 @@
 /**
  * append_text_to_file - appens str
  * @filename: name of file
- * @text_context: str to app
+ * @text_content: str to app
  * Return: 1 or -1
  */
 int append_text_to_file(const char *filename, char *text_content)
